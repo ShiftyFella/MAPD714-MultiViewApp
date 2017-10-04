@@ -6,4 +6,11 @@
 //  Copyright © 2017 Shifty Land LLC. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class SwitchingViewController: UIViewController {
+    override func viewDidLoad() {
+        //
+        
+    }
+}
