@@ -12,6 +12,8 @@
 		77C5C7731F859E4800DBE905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C5C7721F859E4800DBE905 /* Assets.xcassets */; };
 		77C5C7761F859E4800DBE905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C5C7741F859E4800DBE905 /* LaunchScreen.storyboard */; };
 		77C5C77E1F85A98400DBE905 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5C77D1F85A98400DBE905 /* SwitchingViewController.swift */; };
+		77C5C7801F85AC6C00DBE905 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5C77F1F85AC6C00DBE905 /* BlueViewController.swift */; };
+		77C5C7821F85AC8600DBE905 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C5C7811F85AC8600DBE905 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		77C5C7751F859E4800DBE905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77C5C7771F859E4800DBE905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77C5C77D1F85A98400DBE905 /* SwitchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		77C5C77F1F85AC6C00DBE905 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		77C5C7811F85AC8600DBE905 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				77C5C7741F859E4800DBE905 /* LaunchScreen.storyboard */,
 				77C5C7771F859E4800DBE905 /* Info.plist */,
 				77C5C77D1F85A98400DBE905 /* SwitchingViewController.swift */,
+				77C5C7811F85AC8600DBE905 /* YellowViewController.swift */,
+				77C5C77F1F85AC6C00DBE905 /* BlueViewController.swift */,
 			);
 			path = MultiViewAppTest;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C5C7821F85AC8600DBE905 /* YellowViewController.swift in Sources */,
 				77C5C76C1F859E4800DBE905 /* AppDelegate.swift in Sources */,
+				77C5C7801F85AC6C00DBE905 /* BlueViewController.swift in Sources */,
 				77C5C77E1F85A98400DBE905 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
