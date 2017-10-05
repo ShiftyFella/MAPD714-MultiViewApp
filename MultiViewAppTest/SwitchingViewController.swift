@@ -9,8 +9,20 @@
 import UIKit
 
 class SwitchingViewController: UIViewController {
+    
+    //PRIVATE INSTANCE VARIABLES
+    private var _blueViewController:BlueViewController!
+    private var _yellowViewController:YellowViewController!
+    
+    
     override func viewDidLoad() {
         //
+        
+    }
+    
+    //
+    
+    @IBAction func switchViews(sender: UIBarButtonItem) {
         
     }
 }
